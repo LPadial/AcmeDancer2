@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!-- 
+ * tiles_es.xml
+ *
+ * Copyright (C) 2017 Universidad de Sevilla
+ * 
+ * The use of this project is hereby constrained to the conditions of the 
+ * TDG Licence, a copy of which you may download from 
+ * http://www.tdg-seville.info/License.html
+ -->
+
+<!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration 2.0//EN"
+       "http://tiles.apache.org/dtds/tiles-config_2_0.dtd">
+      
+<tiles-definitions>
+	
+	<definition name="customrecord/list" extends="master.page">	
+		<put-attribute name="title" value="CUSTOM RECORDS LIST" />
+		<put-attribute name="body" value="/views/customrecord/list.jsp" />
+	</definition>
+	
+	<definition name="customrecord/edit" extends="master.page">	
+		<put-attribute name="title" value="EDIT CUSTOM RECORD" />
+		<put-attribute name="body" value="/views/customrecord/edit.jsp" />
+	</definition>
+	
+	<definition name="customrecord/create" extends="master.page">	
+		<put-attribute name="title" value="CREATE CUSTOM RECORD" />
+		<put-attribute name="body" value="/views/customrecord/create.jsp" />
+	</definition>
+	
+	<definition name="customrecord/addLink" extends="master.page">	
+		<put-attribute name="title" value="ADD LINKS" />
+		<put-attribute name="body" value="/views/customrecord/addLink.jsp" />
+	</definition>
+	
+	<definition name="customrecord/listLink" extends="master.page">	
+		<put-attribute name="title" value="LIST LINKS" />
+		<put-attribute name="body" value="/views/customrecord/listLink.jsp" />
+	</definition>
+	
+</tiles-definitions>
